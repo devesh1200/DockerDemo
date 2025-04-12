@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/add")
     public  String hello(){
-        return "Hello from server of jenkins ";
+        return "Hello from server of jenkins devesh ";
     }
 }

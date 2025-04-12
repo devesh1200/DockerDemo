@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+npackage com.example.demo.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping
     public  String hello(){
-        return "Hello from server";
+        return "Hello from server of jenkins ";
     }
 }

@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class Controller {
-    @GetMapping
+    @GetMapping("/add")
     public  String hello(){
-        return "Hello from server";
+        return "Hello from server of jenkins devesh ";
     }
 }

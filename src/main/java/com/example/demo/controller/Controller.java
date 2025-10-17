@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/add")
     public  String hello(){
-        return " Cloud Testing Code  ";
+        return " Cloud Testing Code for every one min  ";
     }
 }
